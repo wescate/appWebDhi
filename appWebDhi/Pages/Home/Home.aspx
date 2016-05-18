@@ -13,7 +13,7 @@
                     <th>Nro. Poliza</th>
                     <th>Tecnico Asignado</th>
                     <th>Estado</th>
-                    <th></th>
+                    <th>Acción</th>
                 </tr>
             </thead>
             <tbody>
