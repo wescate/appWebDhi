@@ -21,6 +21,7 @@
             <input id="apellidoMaterno" type="text" class="form-control" placeholder="Apellido Materno" />
         </div>
     </div>
+
           <div class="form-group">
         <label for="usuario" class="control-label col-xs-2">Usuario</label>
         <div class="col-xs-4">
@@ -34,7 +35,7 @@
         </div>
     </div>
     <div class="form-group">
-        <label for="clave2" class="control-label col-xs-2">Ringrese Clave</label>
+        <label for="clave2" class="control-label col-xs-2">Reingrese Clave</label>
         <div class="col-xs-4">
             <input id="clave2" type="password" class="form-control" placeholder="Clave" />
         </div>

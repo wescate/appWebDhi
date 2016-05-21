@@ -13,26 +13,26 @@
       </div>
       <div class="modal-body">
           <div class="row">
-               <div class="col-md-1"></div>
+               <div class="col-xs-1"></div>
                <div class="col-xs-6">
            <div class="form-group">
-                <label for="fechainicio" class="control-label col-xs-2">Fecha Inicio</label>               
+                <label for="fechainicio" class="control-label col-xs-4">Fecha Inicio</label>               
                
-                                 <div class="col-xs-2"><input id="fechainicio" type="text" class="form-control"   /></div>
+                                 <div class="col-xs-6"><input id="fechainicio" type="text" class="form-control"   /></div>
                             </div>
                      <div class="form-group">
                                 
                           <label for="fechafin" class="control-label col-xs-4">Fecha Fin</label>               
-                                 <div class="col-xs-4"><input id="fechafin" type="text"  disabled="disabled" class="form-control"   /></div>
+                                 <div class="col-xs-6"><input id="fechafin" type="text"  disabled="disabled" class="form-control"   /></div>
                             </div>
           <div class="form-group">
-                                <label for="cobertura">Cobertura</label>
-                                 <div class="col-xs-4"><input id="cobertura" type="text"   disabled="disabled" class="form-control"   /></div>
+                                <label for="cobertura" class="control-label col-xs-4">Cobertura</label>
+                                 <div class="col-xs-6"><input id="cobertura" type="text"   disabled="disabled" class="form-control"   /></div>
                             </div>
               <div class="form-group">
                                 
                         <label for="estadoPoliza" class="control-label col-xs-4">Estado Poliza</label> 
-                                 <div class="col-xs-4"><input id="estadoPoliza" type="text" disabled="disabled" class="form-control"   /></div>
+                                 <div class="col-xs-6"><input id="estadoPoliza" type="text" disabled="disabled" class="form-control"   /></div>
                             </div></div> </div>  
         </div>
       </div>      
