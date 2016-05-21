@@ -21,17 +21,17 @@
                     <td>1003</td>
                     <td>Willians Escate</td>
                     <td>100022</td>
-                    <td>T0001</td>
+                    <td>Pendiente</td>
                     <td><span class="label label-primary">Recibido</span></td>
-                    <td></td>
+                    <td><a class="btn-info btn btn-xs"> Asignar Tecnico </a></td>
                 </tr>
                 <tr>
                     <td>1004</td>
                     <td>Jose Cornejo</td>
                     <td>100024</td>
-                    <td>T0002</td>
+                    <td>Pendiente</td>
                     <td><span class="label label-primary">Recibido</span></td>
-                    <td></td>
+                    <td><a class="btn-info btn btn-xs"> Asignar Tecnico </a></td>
                 </tr>
                 <tr>
                     <td>1005</td>
@@ -39,15 +39,15 @@
                     <td>100026</td>
                     <td>T0003</td>
                     <td><span class="label label-info">En atención</span></td>
-                    <td></td>
+                    <td><a class="btn-warning btn btn-xs"> Seguimiento </a></td>
                 </tr>
                 <tr>
                     <td>1006</td>
                     <td>Bartolome Herrera</td>
                     <td>100030</td>
                     <td>T0004</td>
-                    <td><span class="label label-warning">Por Culminar</span></td>
-                    <td></td>
+                    <trd><span class="label label-warning">Por Culminar</span></trd>
+                                 <td><a class="btn-warning btn btn-xs"> Seguimiento </a></td>
                 </tr>
                 <tr>
                     <td>1007</td>
@@ -55,7 +55,7 @@
                     <td>100040</td>
                     <td>T0003</td>
                     <td><span class="label label-info">Cerrado</span></td>
-                    <td></td>
+                                    <td><a class="btn-warning btn btn-xs"> Ver info </a></td>
                 </tr>
             </tbody>
         </table>

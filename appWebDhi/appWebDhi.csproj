@@ -82,6 +82,8 @@
     <Content Include="packages.config" />
     <Content Include="Pages\Home\Home.aspx" />
     <Content Include="Pages\Home\Index.aspx" />
+    <Content Include="Pages\Home\Registrarusuario.aspx" />
+    <Content Include="Pages\Home\Tecnicos.aspx" />
     <Content Include="Pages\Layout\Main.Master" />
     <Content Include="Models\css\bootstrap-theme.css.map" />
     <Content Include="Models\css\bootstrap-theme.min.css.map" />
@@ -92,6 +94,7 @@
     <Content Include="Models\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Models\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Models\css\docs.min.css.map" />
+    <None Include="Properties\PublishProfiles\Willians.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -110,6 +113,7 @@
     <Content Include="Models\js\bootstrap.min.js" />
     <Content Include="Models\js\jquery-1.12.3.js" />
     <Content Include="Models\js\npm.js" />
+    <Content Include="Pages\Servicios\Solicitud.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -130,12 +134,33 @@
     <Compile Include="Pages\Home\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Home\Registrarusuario.aspx.cs">
+      <DependentUpon>Registrarusuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Home\Registrarusuario.aspx.designer.cs">
+      <DependentUpon>Registrarusuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home\Tecnicos.aspx.cs">
+      <DependentUpon>Tecnicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Home\Tecnicos.aspx.designer.cs">
+      <DependentUpon>Tecnicos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Layout\Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Layout\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Servicios\Solicitud.aspx.cs">
+      <DependentUpon>Solicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Servicios\Solicitud.aspx.designer.cs">
+      <DependentUpon>Solicitud.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
